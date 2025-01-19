@@ -46,15 +46,11 @@ const Hero = () => {
               </div> */}
             </div>
             <p className="text-black max-w-[1200px] md:max-w-[550px] font-gs text-lg md:text-xl mt-2 mx-auto md:mx-0">
-              Liger is an innovative cryptocurrency designed to bridge the gap
-              between traditional finance and the rapidly evolving world of
-              decentralized finance (DeFi). This digital asset aims to combine
-              the best features of existing cryptocurrencies while addressing
-              their limitations.
+            Lyra is a playful cryptocurrency designed to bring fun and community spirit to the fast-paced world of decentralized finance (DeFi). This digital asset captures the charm of meme culture while leveraging the speed and efficiency of Solana, creating a seamless and engaging experience for users.
             </p>
 
             {/* Phases */}
-            <div className="flex flex-wrap justify-center md:justify-start gap-5 mt-5 max-w-[600px]">
+            {/* <div className="flex flex-wrap justify-center md:justify-start gap-5 mt-5 max-w-[600px]">
               {[
                 { phase: "Phase 1", price: "0.035$" },
                 { phase: "Phase 2", price: "0.05$" },
@@ -82,16 +78,16 @@ const Hero = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             {/* Hero Image */}
-            <div className="max-md:hidden">
+            {/* <div className="max-md:hidden">
               <img
                 src={HeroImage}
                 alt="Hero Image"
                 className="w-full max-w-[400px] mt-20 absolute -right-16 top-24"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

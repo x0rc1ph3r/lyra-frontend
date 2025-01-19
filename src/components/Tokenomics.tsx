@@ -31,7 +31,7 @@ const Hero = () => {
             />
 
             <p className="text-black max-w-[90%] md:max-w-[550px] font-gs text-lg md:text-xl my-4 mx-auto md:mx-0">
-              LIGER has a total supply of 100,000,000 tokens. The $LIGER token
+              LYRA has a total supply of 1,000,000,000 tokens. The $LYRA token
               is minted on SOLANA and is unique in that it can also be claimed,
               stored, and traded on Solana.
             </p>

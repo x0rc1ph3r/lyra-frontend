@@ -18,7 +18,7 @@ import Web3Payments from "../assets/web3payments.svg";
 const Widget = () => {
   const [activeTab, setActiveTab] = useState("eth");
 
-  const rate = 0.00025;
+  const rate = 0.0001;
   const [inputAmount, setInputAmount] = useState("");
 
   const { publicKey, sendTransaction, connected, disconnect } = useWallet();
@@ -60,7 +60,7 @@ const Widget = () => {
   }, []);
 
   const handleCopyAddress = async () => {
-    navigator.clipboard.writeText('6HPwgiuTj1EnVMZxkvJw6UgaAyxaHyDG8gJQ3DcEhKb2');
+    navigator.clipboard.writeText('F9ax9qQrFxcdy2sPsc3yVhf9XdNsTdf1zDQrVh2HDedW');
   }
 
   const handleBuy = async () => {
@@ -153,7 +153,7 @@ const Widget = () => {
     <div className="relative w-full max-w-[400px] z-[1] drop-shadow-[0_10px_6px_rgba(0,0,0,0.31)] bg-[#f7cb46]  rounded-xl  border-2 border-black">
       <div className="p-5">
         <p className="text-center text-black font-gs-eb text-xl mb-4">
-          Buy $LIGER Presale
+          Buy $LYRA Presale
         </p>
 
         <div className="w-full mx-auto">
@@ -197,9 +197,9 @@ const Widget = () => {
           </div>
 
           <p className="bg-black text-white rounded-b-[15px] text-[11px] tracking-[1px] text-center py-[2px] uppercase font-gs-sb">
-            Until next Price increase
+            Presale ends in
           </p>
-
+{/* 
           <div className="text-black mt-3 mb-2 leading-[1] text-sm text-center">
             <span className="leading-[1] font-gs-sb font-semibold">
               $205,236
@@ -208,15 +208,15 @@ const Widget = () => {
               {" "}
               / $3,000,000
             </span>
-          </div>
+          </div> */}
 
           {/* Progess Bar  */}
-          <div className="w-full bg-gray-200 mb-5 overflow-hidden rounded-full h-3">
+          {/* <div className="w-full bg-gray-200 mb-5 overflow-hidden rounded-full h-3">
             <div
               className="bg-[#fe7a13] h-full rounded-full"
               style={{ width: `${(205236 / 3000000) * 100}%` }}
             ></div>
-          </div>
+          </div> */}
 
           {/* <div className="flex justify-center items-center text-center mb-2 text-sm">
             <span className="leading-[1] uppercase mr-1 font-gs-sb font-semibold">
@@ -249,9 +249,9 @@ const Widget = () => {
           </div> */}
         </div>
 
-        <div className="  w-full mx-auto">
+        <div className="mt-3 w-full mx-auto">
           <p className="text-black relative tracking-[1.5px] text-sm text-center mb-2 font-gs-m before:content-[''] before:w-[20%] before:h-[1px] before:bg-[#eaeaea] before:absolute before:left-0 before:top-1/2 after:content-[''] after:w-[20%] after:h-[1px] after:bg-[#eaeaea] after:absolute after:right-0 after:top-1/2">
-            1 $LIGER = {rate} SOL
+            1 $LYRA = {rate} SOL
           </p>
 
           {/* Tabs Btns  */}
@@ -398,7 +398,7 @@ const Widget = () => {
             <div>
               <div className="text-black mb-1 flex items-center justify-between">
                 <label className="tracking-[1] text-[13px] block font-gs-m">
-                  $LIGER You receive
+                  $LYRA You receive
                 </label>
               </div>
 
@@ -469,7 +469,7 @@ const Widget = () => {
               Trouble connecting? You can also send SOL to this wallet:
             </div>
             <button onClick={handleCopyAddress} className="text-black underline hover:text-opacity-70 text-[17px] font-gs-sb text-center w-full mt-4 mx-auto">
-              6HPwgiuTj1.....JQ3DcEhKb2
+            F9ax9qQrFx.....QrVh2HDedW
             </button>
             <div className="text-sm text-center mt-4 flex items-center justify-center">
               <p className="text-black">Powered by</p>

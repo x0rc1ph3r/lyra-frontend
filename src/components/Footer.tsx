@@ -1,5 +1,5 @@
 import React from "react";
-import liger from "../assets/logo.png";
+import liger from "../assets/lyra.jpg";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -8,33 +8,26 @@ const Footer = () => {
   return (
     <div className="relative bg-primary">
       <div className="flex justify-center">
-        <img className="w-full max-w-[350px]" src={liger} alt="" />
+        <div className="flex items-center space-x-4">
+          <img
+            src={liger}
+            alt="Logo"
+            className="w-full rounded-full border-2 border-white shadow-none max-w-[180px]"
+          />
+          <span className="text-white text-7xl font-bold font-gs-eb">LYRA</span>
+        </div>
       </div>
       <div className="text-black text-center text-balance">
-        Copyright © 2024 liger.life. All Rights Reserved
+        Copyright © 2025 LYRA. All Rights Reserved
       </div>
 
       <div className="flex justify-center gap-2 py-4">
         <a
-          href="https://t.me/ligeroffical"
-          target="_blank"
-          className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-        >
-          <FaTelegramPlane size={24} color="#fff" />
-        </a>
-        <a
-          href="https://x.com/ligerofficial5"
+          href="https://x.com/"
           target="_blank"
           className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
         >
           <RiTwitterXFill size={24} color="#fff" />
-        </a>
-        <a
-          href="https://www.instagram.com/ligerofficial5/"
-          target="_blank"
-          className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-        >
-          <AiFillInstagram size={24} color="#fff" />
         </a>
       </div>
     </div>

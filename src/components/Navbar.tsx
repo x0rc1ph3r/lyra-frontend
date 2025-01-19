@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/lyra.jpg";
 import { FiMenu, FiX } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -41,11 +41,14 @@ const Navbar = () => {
   return (
     <div className="relative flex items-center justify-between p-2 px-7 w-full bg-[#ffcc02]">
       <div className="relative h-auto">
-        <img
-          src={Logo}
-          alt="Logo"
-          className="rounded-none shadow-none max-w-[140px]"
-        />
+        <div className="flex items-center space-x-4">
+          <img
+            src={Logo}
+            alt="Logo"
+            className="rounded-full border-2 border-white shadow-none max-w-[60px]"
+          />
+          <span className="text-white text-4xl font-bold font-gs-eb">LYRA</span>
+        </div>
       </div>
 
       {/* Desktop Navigation */}
@@ -68,12 +71,6 @@ const Navbar = () => {
         >
           Tokenomics
         </a>
-        <a
-          className="text-[18px] px-2 rounded-lg hover:text-white hover:bg-[#fe7a13] cursor-pointer"
-          href="#roadmap"
-        >
-          Roadmap
-        </a>
       </div>
 
       {/* Mobile Navigation */}
@@ -85,9 +82,8 @@ const Navbar = () => {
 
       {/* Drawer for Mobile */}
       <div
-        className={`text-black fixed top-0 left-0 w-2/3 h-full bg-[#ffcc02] p-4 z-40 transition-transform ${
-          isDrawerOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`text-black fixed top-0 left-0 w-2/3 h-full bg-[#ffcc02] p-4 z-40 transition-transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <div className="flex flex-col space-y-4  font-gs-eb">
           <a
@@ -108,37 +104,17 @@ const Navbar = () => {
           >
             Tokenomics
           </a>
-          <a
-            className="text-[18px] px-2 rounded-lg hover:text-white hover:bg-[#fe7a13] cursor-pointer"
-            href="#roadmap"
-          >
-            Roadmap
-          </a>
           <div className="flex justify-evenly">
-          <a
-            href="https://t.me/ligeroffical"
-            target="_blank"
-            className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-          >
-            <FaTelegramPlane size={24} color="#fff" />
-          </a>
-          <a
-            href="https://x.com/ligerofficial5"
-            target="_blank"
-            className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-          >
-            <RiTwitterXFill size={24} color="#fff" />
-          </a>
-          <a
-            href="https://www.instagram.com/ligerofficial5/"
-            target="_blank"
-            className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-          >
-            <AiFillInstagram size={24} color="#fff" />
-          </a>
+            <a
+              href="https://x.com/"
+              target="_blank"
+              className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
+            >
+              <RiTwitterXFill size={24} color="#fff" />
+            </a>
           </div>
           <a
-            href="https://solscan.io/token/J4DHQpNE1LZ79wV2TuQsR64oAhwbE3pAJh5YHej5QQ9m"
+            href="https://solscan.io/token/LYRA9YkVPUtuiUKLQgWNi2QynAACszwbL2XZTeucifX"
             target="_blank"
             className="bg-black text-white text-center hover:bg-opacity-70 min-w-[130px] py-2.5 rounded-full uppercase font-gs-b text-xl"
           >
@@ -151,34 +127,16 @@ const Navbar = () => {
         <ul className="flex gap-2 text-lg">
           <li>
             <a
-              href="https://t.me/ligeroffical"
-              target="_blank"
-              className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-            >
-              <FaTelegramPlane size={24} color="#fff" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://x.com/ligerofficial5"
+              href="https://x.com/"
               target="_blank"
               className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
             >
               <RiTwitterXFill size={24} color="#fff" />
             </a>
           </li>
-          <li>
-            <a
-              href="https://www.instagram.com/ligerofficial5/"
-              target="_blank"
-              className="bg-black p-2.5 rounded-lg hover:bg-opacity-70 cursor-pointer block"
-            >
-              <AiFillInstagram size={24} color="#fff" />
-            </a>
-          </li>
         </ul>
         <a
-          href="https://solscan.io/token/J4DHQpNE1LZ79wV2TuQsR64oAhwbE3pAJh5YHej5QQ9m"
+          href="https://solscan.io/token/LYRA9YkVPUtuiUKLQgWNi2QynAACszwbL2XZTeucifX"
           target="_blank"
           className="bg-black text-white text-center hover:bg-opacity-70 min-w-[130px] py-2.5 rounded-full uppercase font-gs-b text-xl"
         >
