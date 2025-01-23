@@ -12,7 +12,7 @@ import { connection, host } from "../utils/constants";
 // import BNBIcon from "@/assets/bnb.svg";
 // import USDIcon from "@/assets/usd.svg";
 import EthIcon from "../assets/solana.png";
-import TokenIcon from "../assets/liger.png";
+import TokenIcon from "../assets/lyra.jpg";
 import Web3Payments from "../assets/web3payments.svg";
 
 const Widget = () => {
@@ -412,7 +412,7 @@ const Widget = () => {
                     alt="Token Icon"
                     width={28}
                     height={28}
-                    className="w-[28px] h-[28px]"
+                    className="rounded-full border-2 border-white shadow-none w-[28px] h-[28px]"
                   />
                 </div>
               </div>
