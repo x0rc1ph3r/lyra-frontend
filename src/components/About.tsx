@@ -4,12 +4,12 @@ import AboutText from "../assets/about-text.png";
 const About = () => {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black" id="about">
-      <div className="relative w-full min-h-screen">
+      <div className="relative w-full md:min-h-screen">
         {/* Background gradient with purple effect */}
         <div className="absolute inset-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-700 via-gray-900 to-black opacity-30"></div>
 
         {/* Main content */}
-        <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-center items-center min-h-screen gap-8 px-4 md:px-8">
+        <div className="relative z-10 max-w-[1200px] mx-auto flex justify-center flex-col md:flex-row md:min-h-screen items-center gap-6 max-md:py-5">
           {/* Text and Image Section */}
           <div className="flex-1 text-center md:text-left relative">
             {/* About Text Image */}

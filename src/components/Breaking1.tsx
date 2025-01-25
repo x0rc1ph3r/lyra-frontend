@@ -34,6 +34,46 @@ const Breaking = () => {
             alt="Paw print icon"
             className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
           />
+          <p className="inline text-purple-300 font-gs-b text-3xl mx-4">
+            {" "}LYRA Presale live
+          </p>
+          <img
+            src={PawPrint}
+            alt="Paw print icon"
+            className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
+          />
+          <p className="inline text-purple-300 font-gs-b text-3xl mx-4">
+            {" "}LYRA Presale live
+          </p>
+          <img
+            src={PawPrint}
+            alt="Paw print icon"
+            className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
+          />
+          <p className="inline text-purple-300 font-gs-b text-3xl mx-4">
+            {" "}LYRA Presale live
+          </p>
+          <img
+            src={PawPrint}
+            alt="Paw print icon"
+            className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
+          />
+          <p className="inline text-purple-300 font-gs-b text-3xl mx-4">
+            {" "}LYRA Presale live
+          </p>
+          <img
+            src={PawPrint}
+            alt="Paw print icon"
+            className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
+          />
+          <p className="inline text-purple-300 font-gs-b text-3xl mx-4">
+            {" "}LYRA Presale live
+          </p>
+          <img
+            src={PawPrint}
+            alt="Paw print icon"
+            className="rounded-full border-2 border-purple-300 shadow-lg max-w-[50px] mx-10"
+          />
         </Marquee>
       </div>
     </div>
