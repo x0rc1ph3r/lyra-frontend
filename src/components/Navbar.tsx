@@ -230,7 +230,7 @@ const Navbar = () => {
           </a>
           <div className="flex justify-evenly">
             <a
-              href="https://x.com/"
+              href="https://x.com/LyraToken"
               target="_blank"
               className="bg-gray-800 p-2.5 rounded-lg hover:bg-gray-700 cursor-pointer block"
             >
@@ -251,7 +251,7 @@ const Navbar = () => {
         <ul className="flex gap-2 text-lg">
           <li>
             <a
-              href="https://x.com/"
+              href="https://x.com/LyraToken"
               target="_blank"
               className="bg-gray-800 p-2.5 rounded-lg hover:bg-gray-700 cursor-pointer block"
             >

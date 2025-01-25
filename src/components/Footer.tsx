@@ -34,7 +34,7 @@ const Footer = () => {
             </p>
             <div className="flex justify-center gap-6 py-4">
               <a
-                href="https://x.com/"
+                href="https://x.com/LyraToken"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-all duration-300 cursor-pointer block"
