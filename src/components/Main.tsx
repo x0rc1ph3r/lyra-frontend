@@ -18,6 +18,7 @@ const Main = () => {
       <About />
       <Breaking2 />
       <Tokenomics />
+      <Breaking2 />
       <Footer />
     </>
   );
