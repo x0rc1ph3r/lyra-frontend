@@ -747,7 +747,7 @@ const Widget = () => {
                 onClick={() => handleBuy()}
                 className="border-2 border-purple-500 hover:border-purple-400 hover:bg-purple-700 hover:text-white transition-all duration-200 mt-[10px] bg-purple-600 relative w-full h-[40px] rounded-[1000px] flex items-center justify-center px-[20px]"
               >
-                <p className="font-MavenPro font-[500]">Buy $LIGER</p>
+                <p className="font-MavenPro font-[500]">Buy $LYRA</p>
               </button>
             ) : (
               <div
